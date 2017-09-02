@@ -1,7 +1,7 @@
-# Learning-resource
+# Tutorials and Resources
 
 #### Introduction:
-> Here is about learning django tutorial, and some web development technology resource, take down what I am learning during the process.
+> I am beginner in Django, here is about learning django framework resources, and some web development technology resources, just take down what I am learning during the process.
 
 #### Walkthrough:
 
@@ -15,24 +15,44 @@
 
 [Developing a Django app with zc.buildout](https://jacobian.org/writing/django-apps-with-buildout/)
 
-[Become a git guru](https://www.atlassian.com/git/tutorials)
-
-[How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/)
+[Directory Structure of a Buildout](http://www.buildout.org/en/latest/docs/dirstruct.html)
 
 [Coverage.py](https://coverage.readthedocs.io/en/coverage-4.4.1/) — tool for measuring code coverage of Python programs.
 
-##### 2. API
+[Practical Django Testing Examples: Views](https://django-testing-docs.readthedocs.io/en/latest/views.html)
+
+##### 2. [Git](https://git-scm.com/)
+
+[Become a git guru](https://www.atlassian.com/git/tutorials)
+
+[Ignoring files - User Documentation](https://help.github.com/articles/ignoring-files/)
+
+[Git - gitignore Documentation](https://git-scm.com/docs/gitignore)
+
+[How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/)
+
+##### 3. Celery - Celery is a task queue with batteries included.
+
+[First Steps with Celery](http://docs.celeryproject.org/en/latest/getting-started/first-steps-with-celery.html#first-steps)
+
+[Async Task - Celery Notes](http://python.jobbole.com/87086/)
+
+[Asynchronous Tasks With Django and Celery](https://realpython.com/blog/python/asynchronous-tasks-with-django-and-celery/)
+
+##### 4. API
 
 [Django REST Framework](http://www.django-rest-framework.org/)
 
-[A quick guide to using FFmpeg to convert media files](https://opensource.com/article/17/6/ffmpeg-convert-media-file-formats)
+[REST APIs, Apps, and Django REST Framework](https://medium.com/@djstein/modern-django-part-2-rest-apis-apps-and-django-rest-framework-ea0cac5ab104)
 
 
-##### 3. [FFmpeg](https://www.ffmpeg.org/ffmpeg.html#Simple-filtergraphs)
+##### 5. [FFmpeg](https://www.ffmpeg.org/ffmpeg.html#Simple-filtergraphs)
 
 [FFmpeg Basic Usage](http://blog.csdn.net/doublefi123/article/details/24325159)
 
 [Simplest Video Website: JavaEE+FFmpeg](http://blog.csdn.net/leixiaohua1020/article/details/43870599)
+
+[A quick guide to using FFmpeg to convert media files](https://opensource.com/article/17/6/ffmpeg-convert-media-file-formats)
 
 **ffmpy** [Python Package](https://pypi.python.org/pypi/ffmpy) [documentation](https://ffmpy.readthedocs.io/en/latest/ffmpy.html)
 
@@ -47,3 +67,7 @@ ff.cmd
     'ffmpeg -i input.ts -c:a mp2 -c:v mpeg2video output.mp4'
 ff.run()
 ```
+
+##### 6. JavaScript
+
+[The Modern JavaScript Tutorial](https://javascript.info/)
