@@ -5,7 +5,15 @@
 
 #### Walkthrough:
 
-##### 1. About Django
+##### 1. About Python
+
+[Python 3.6.2 documentation](https://docs.python.org/3.6/)
+
+[PEP 8 -- Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/)
+
+[Python Social Auth documentation](https://python-social-auth.readthedocs.io/en/latest/index.html)
+
+##### 2. About Django
 
 [Django Documentation](https://docs.djangoproject.com/en/1.11/intro/)
 
@@ -21,7 +29,11 @@
 
 [Practical Django Testing Examples: Views](https://django-testing-docs.readthedocs.io/en/latest/views.html)
 
-##### 2. [Git](https://git-scm.com/)
+[Introduction to Class-Based Views](https://hellowebbooks.com/news/introduction-to-class-based-views/)
+
+##### 3. Git - Version control system
+
+[Git Documentation](https://git-scm.com/doc)
 
 [Become a git guru](https://www.atlassian.com/git/tutorials)
 
@@ -31,7 +43,7 @@
 
 [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/)
 
-##### 3. Celery - Celery is a task queue with batteries included.
+##### 4. Celery - Celery is a task queue with batteries included.
 
 [First Steps with Celery](http://docs.celeryproject.org/en/latest/getting-started/first-steps-with-celery.html#first-steps)
 
@@ -39,14 +51,15 @@
 
 [Asynchronous Tasks With Django and Celery](https://realpython.com/blog/python/asynchronous-tasks-with-django-and-celery/)
 
-##### 4. API
+##### 5. API - Django REST Framework
 
 [Django REST Framework](http://www.django-rest-framework.org/)
 
 [REST APIs, Apps, and Django REST Framework](https://medium.com/@djstein/modern-django-part-2-rest-apis-apps-and-django-rest-framework-ea0cac5ab104)
 
+[Django Rest Framework Serializers(CN)](https://zhujia.info/2017/07/03/DjangoRestFrameworkSerializerModels/)
 
-##### 5. [FFmpeg](https://www.ffmpeg.org/ffmpeg.html#Simple-filtergraphs)
+##### 6. [FFmpeg - Audio/Video encoding](https://www.ffmpeg.org/ffmpeg.html#Simple-filtergraphs)
 
 [FFmpeg Basic Usage](http://blog.csdn.net/doublefi123/article/details/24325159)
 
@@ -54,7 +67,7 @@
 
 [A quick guide to using FFmpeg to convert media files](https://opensource.com/article/17/6/ffmpeg-convert-media-file-formats)
 
-**ffmpy** [Python Package](https://pypi.python.org/pypi/ffmpy) [documentation](https://ffmpy.readthedocs.io/en/latest/ffmpy.html)
+**ffmpy** [Python Package](https://pypi.python.org/pypi/ffmpy)  [documentation](https://ffmpy.readthedocs.io/en/latest/ffmpy.html)
 
 ffmpy is a simplystic FFmpeg command line wrapper. It implements a Pythonic interface for FFmpeg command line compilation and uses Python subprocess module to execute compiled command line.
 
@@ -68,6 +81,6 @@ ff.cmd
 ff.run()
 ```
 
-##### 6. JavaScript
+##### 7. JavaScript - Frontend
 
 [The Modern JavaScript Tutorial](https://javascript.info/)
