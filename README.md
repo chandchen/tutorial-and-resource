@@ -1,11 +1,11 @@
 # Tutorials and Resources
 
 #### Introduction:
-> I am beginner in Django, here is about learning django framework resources, and some web development technology resources, just take down what I am learning during the process.
+> Here is resource about learning django framework from beginning, and some web development technology resources, just take down what I am learning during the process.
+At the same time, I will record some useful python packages, then give a brief introduction.
 
-#### Walkthrough:
 
-##### 1. About Python
+##### 1. Python - Life is short, you need Python
 
 [Python 3.6.2 documentation](https://docs.python.org/3.6/)
 
@@ -13,7 +13,20 @@
 
 [Python Social Auth documentation](https://python-social-auth.readthedocs.io/en/latest/index.html)
 
-##### 2. About Django
+```
+$ pip install social-auth-app-django
+```
+
+[Package of the Week: Python Decouple](https://simpleisbetterthancomplex.com/2015/11/26/package-of-the-week-python-decouple.html)
+
+```
+$ pip install python-decouple
+```
+
+[How to Add Social Login to Django](https://simpleisbetterthancomplex.com/tutorial/2016/10/24/how-to-add-social-login-to-django.html)
+
+
+##### 2. Django - The Web framework for perfectionists with deadlines
 
 [Django Documentation](https://docs.djangoproject.com/en/1.11/intro/)
 
@@ -31,6 +44,7 @@
 
 [Introduction to Class-Based Views](https://hellowebbooks.com/news/introduction-to-class-based-views/)
 
+
 ##### 3. Git - Version control system
 
 [Git Documentation](https://git-scm.com/doc)
@@ -43,6 +57,7 @@
 
 [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/)
 
+
 ##### 4. Celery - Celery is a task queue with batteries included.
 
 [First Steps with Celery](http://docs.celeryproject.org/en/latest/getting-started/first-steps-with-celery.html#first-steps)
@@ -51,6 +66,7 @@
 
 [Asynchronous Tasks With Django and Celery](https://realpython.com/blog/python/asynchronous-tasks-with-django-and-celery/)
 
+
 ##### 5. API - Django REST Framework
 
 [Django REST Framework](http://www.django-rest-framework.org/)
@@ -58,6 +74,7 @@
 [REST APIs, Apps, and Django REST Framework](https://medium.com/@djstein/modern-django-part-2-rest-apis-apps-and-django-rest-framework-ea0cac5ab104)
 
 [Django Rest Framework Serializers(CN)](https://zhujia.info/2017/07/03/DjangoRestFrameworkSerializerModels/)
+
 
 ##### 6. [FFmpeg - Audio/Video encoding](https://www.ffmpeg.org/ffmpeg.html#Simple-filtergraphs)
 
@@ -80,6 +97,7 @@ ff.cmd
     'ffmpeg -i input.ts -c:a mp2 -c:v mpeg2video output.mp4'
 ff.run()
 ```
+
 
 ##### 7. JavaScript - Frontend
 
