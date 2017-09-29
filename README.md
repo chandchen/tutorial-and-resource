@@ -25,6 +25,12 @@ $ pip install python-decouple
 
 [How to Add Social Login to Django](https://simpleisbetterthancomplex.com/tutorial/2016/10/24/how-to-add-social-login-to-django.html)
 
+[How to Use Django Widget Tweaks](https://simpleisbetterthancomplex.com/2015/12/04/package-of-the-week-django-widget-tweaks.html)
+
+```
+$ pip install django-widget-tweaks
+```
+
 
 ##### 2. Django - The Web framework for perfectionists with deadlines
 
@@ -44,6 +50,18 @@ $ pip install python-decouple
 
 [Introduction to Class-Based Views](https://hellowebbooks.com/news/introduction-to-class-based-views/)
 
+[How to Use Django's Generic Relations](https://simpleisbetterthancomplex.com/tutorial/2016/10/13/how-to-use-generic-relations.html)
+
+Basically it’s a built in app that keeps track of models from the installed apps of your Django application. And one of the use cases of the ContentTypes is to create generic relationships between models.
+```
+INSTALLED_APPS = [
+    ...
+
+    'django.contrib.contenttypes',
+
+    ...
+]
+```
 
 ##### 3. Git - Version control system
 
@@ -102,3 +120,5 @@ ff.run()
 ##### 7. JavaScript - Frontend
 
 [The Modern JavaScript Tutorial](https://javascript.info/)
+
+[How To Install and Use PostgreSQL on Ubuntu 16.04 ](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-16-04)
