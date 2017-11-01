@@ -99,3 +99,98 @@ date.setDate(date.getDate() + 30);
 
 > [Understand JavaScript’s “this” With Clarity, and Master It](http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/)
 
+```js
+var user = {
+    tournament: 'The Masters',
+    data: [
+        {name: "T.Woods", age: 37},
+        {name: "P.Mickelson", age: 43}
+    ],
+    clickHandler: function(event) {
+        var _this = this;
+        this.data.forEach(function(person) {
+            console.log(person.name + "is playing at" + _this.tournament);
+            })
+    }
+}
+```
+
+#### 4. forEach() method
+
+> forEach() executes the provided `callback` once for each element present in the array in ascending order.
+
+```js
+arr.forEach(function callback(currentValue, index, array) {
+    //your iterator
+}[, thisArg]);
+```
+
+```js
+var arr = ['a', 'b', 'c'];
+
+arr.forEach(function(element){
+    console.log(element);
+    });
+```
+[The for Loop vs. forEach in JavaScript](https://thejsguy.com/2016/07/30/javascript-for-loop-vs-array-foreach.html)
+
+#### 5. Objects in Detail
+
+> objects can contain any other data type, including Numbers, Arrays, and even other Objects.
+
+```js
+var person = {name: "Kobe"};
+// copy the person object not an actual value
+var anotherPerson = person;
+person.name = "Bryant";
+
+console.log(anotherPerson.name);   // Bryant
+console.log(person.name);    // Bryant
+```
+
+Object Constructor:
+```js
+var mango = new Object();
+mango.color = "yellow";
+mango.shape = "round";
+
+mango.howSweetAmI = function() {
+    console.log("Hmm Hmm Good");
+}
+```
+
+1) Constructor Pattern for Creating Objects
+
+```js
+function Fruit(name, color, native) {
+    this.name = name;
+    this.color = color;
+    this.native = native;
+
+    this.showName = function() {
+        console.log("This is a " + this.name);
+    }
+
+    this.nativeTo = function() {
+        this.native.forEach(function(eachCountry) {
+            console.log("Grown in: " + eachCountry);
+            });
+    }
+}
+
+// usage
+var mango = new Fruit("Mango", "yellow", ["US", "CN", "PH"]);
+mango.showName();   // This is a Mango
+mango.nativeTo();
+```
+
+2) Prototype Pattern for Creating Objects
+
+```js
+function Fruit() {
+}
+Fruit.prototype.name = "Generic Fruit";
+...
+```
+
+[JavaScript Objects in Detail](http://javascriptissexy.com/javascript-objects-in-detail/)
